@@ -33,6 +33,7 @@ button {
   background-color: #1F2937;
   padding: 100px;
   margin: 50px;
+  height: 60vh;
 }
 
 #section-one {
@@ -48,6 +49,49 @@ button {
   margin: 50px;
 }
 
+#section-three {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#section-four {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  gap: 50px;
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(0, 0, 255);
+  border-radius: 6px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.subtext {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+.information-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .hero {
   font-size: 48px;
   color: #f9faf8;
